@@ -64,7 +64,7 @@
 <q></q>短文本引用，自动添加双引号，表示引用
 <blockquote></blockquote>是对长文本的应用，自动添加两边缩进，看下图。
 ```
-![](pictures/blockquote.png)
+![blockquote](pictures/blockquote.png)
 ```text
 
 <br />换行，最后一行文字不需要用这个空标签
@@ -78,7 +78,7 @@
 width调节宽度，size调节高度，color调节颜色<hr color=”颜色” size=“高度",width="宽度" />
 <address></address>标签对里填入联系方式，自动斜体表示
 ```
-![](pictures/address.png)
+![address](pictures/address.png)
 ```text
 
 <code></code>添加一行代码
@@ -127,7 +127,7 @@ table tr td,th{border:1px solid #000;}
 </style>
 就会给表格一个这样的边框
 ```
-![](pictures/border-stydel.png)
+![border-stydel](pictures/border-stydel.png)
 ```text
 为表格添加摘要和标题
 <table summary="摘要">
@@ -146,10 +146,10 @@ table tr td,th{border:1px solid #000;}
 <a href="目标网址" target="_blank">链接文字</a>
 <a>标签还有一个作用是可以链接Email地址，使用mailto能让访问者便捷向网站管理者发送电子邮件。我们还可以利用mailto做许多其它事情。下面一一进行讲解，请看详细图示：
 ```
-![](pictures/mailto.jpg)
+![mailto](pictures/mailto.jpg)
 注意：如果mailto后面还有多个参数的话，第一个参数必须以“?”开头，后面的参数每一个都以“&”分隔。
 下面是一个完整的实例:
-![](pictures/mailto-eg.jpg)
+![mailto-eg](pictures/mailto-eg.jpg)
 ```text
 插入图片
 <img src="图片地址" alt="下载失败时的替换文本" title = "提示文本">
@@ -195,7 +195,7 @@ table tr td,th{border:1px solid #000;}
 </form>
 在浏览器中显示的结果：
 ```
-![](pictures/input.jpg)
+![input](pictures/input.jpg)
 ```text
 大段文字，文本域
 语法：
@@ -210,7 +210,7 @@ table tr td,th{border:1px solid #000;}
         <textarea cols="50" rows="10" >在这里输入内容...</textarea>
 </form>
 ```
-![](pictures/form.jpg)
+![form](pictures/form.jpg)
 ```text
 选择组件
 语法：
@@ -227,21 +227,21 @@ table tr td,th{border:1px solid #000;}
 下拉列表在网页中也常会用到，它可以有效的节省网页空间。既可以单选、又可以多选。如下代码：
 单选：
 ```
-![](pictures/select.jpg)
+![select](pictures/select.jpg)
 讲解：
  
 1、value：
-![](pictures/value.jpg)
+![value](pictures/value.jpg)
 2、selected="selected"：
 设置selected="selected"属性，则该选项就被默认选中。
 在浏览器中显示的结果：
-![](pictures/selected.jpg)
+![selected](pictures/selected.jpg)
 ```text
 多选：
 在<select>标签中设置multiple="multiple"属性，就可以实现多选功能，在 windows 操作系统下，进行多选时按下Ctrl键同时进行单击（在 Mac下使用 Command +单击），可以选择多个选项。如下代码：
 ```
-![](pictures/selectMultiple.jpg)
-![](pictures/selectMultiple2.jpg)
+![selectMultiple](pictures/selectMultiple.jpg)
+![selectMultiple2](pictures/selectMultiple2.jpg)
 ```text
 提交按钮：
 语法：
@@ -250,8 +250,8 @@ type：只有当type值设置为submit时，按钮才有提交作用
 value：按钮上显示的文字
 举例：
 ```
-![](pictures/submit.jpg)
-![](pictures/submit2.jpg)
+![submit](pictures/submit.jpg)
+![submit2](pictures/submit2.jpg)
 ```text
 重置按钮：
 语法：
@@ -404,12 +404,12 @@ ID选择器
 </html>
 效果：
 ```
-![](pictures\子选择器.jpg)
+![子选择器](pictures\子选择器.jpg)
 包含（后代）选择器
 把子选择器的 > 改成空格
 
 变化：
-![](pictures/后代选择器.jpg)
+![后代选择器](pictures/后代选择器.jpg)
 ```text
 总结：>作用于元素的第一代后代，空格作用于元素的所有后代。
 
@@ -565,7 +565,8 @@ border-left:1px solid red;
 盒模型宽度和高度和我们平常所说的物体的宽度和高度理解是不一样的，css内定义的宽（width）和高（height），指的是填充以里的内容范围。
 因此一个元素实际宽度（盒子的宽度）=左边界+左边框+左填充+内容宽度+右填充+右边框+右边界。
 ```
-![](pictures/盒子模型.jpg)
+![盒子模型](pictures/盒子模型.jpg)
+
 ```text
 元素的高度也是同理。
 比如：
@@ -582,7 +583,7 @@ html代码：
 </body>
 元素的实际长度为：10px+1px+20px+200px+20px+1px+10px=262px。在chrome浏览器下可查看元素盒模型，如下图：
 ```
-![](pictures/盒子模型2.jpg)
+![盒子模型2](pictures/盒子模型2.jpg)
 ```text
 元素内容与边框之间是可以设置距离的，称之为“填充”。填充也可分为上、右、下、左(顺时针)。如下代码：
 div{padding:20px 10px 15px 30px;}
@@ -633,7 +634,7 @@ div{
 <div id="div2"></div>
 效果图
 ```
-![](pictures/浮动.jpg)
+![浮动](pictures/浮动.jpg)
 ```text
 当然你也可以同时设置两个元素右浮动也可以实现一行显示。
 div{
@@ -644,7 +645,7 @@ div{
 }
 效果图
 ```
-![](pictures/右浮动.jpg)
+![右浮动](pictures/右浮动.jpg)
 ```text
 又有小伙伴问了，设置两个元素一左一右可以实现一行显示吗？当然可以：
 div{
@@ -656,7 +657,7 @@ div{
 #div2{float:right;}
 效果图
 ```
-![](pictures/左右浮动.jpg)
+![左右浮动](pictures/左右浮动.jpg)
 ```text
 当宽度不够时，两个元素并行显示
 
@@ -673,7 +674,7 @@ div{
 <div id="div1"></div>
 效果如下：
 ```
-![](pictures/绝对定位.jpg)
+![绝对定位](pictures/绝对定位.jpg)
 ```text
 
 
@@ -690,7 +691,7 @@ div{
 <div id="div1"></div>
 效果图：
 ```
-![](pictures/相对定位.jpg)
+![相对定位](pictures/相对定位.jpg)
 ```text
 什么叫做“偏移前的位置保留不动”呢？
 大家可以做一个实验，在右侧代码编辑器的19行div标签的后面加入一个span标签，在标并在span标签中写入一些文字。如下代码：
@@ -699,7 +700,7 @@ div{
 </body>
 效果图：
 ```
-![](pictures/偏移元素位置不变.jpg)
+![偏移元素位置不变](pictures/偏移元素位置不变.jpg)
 ```text
 从效果图中可以明显的看出，虽然div元素相对于以前的位置产生了偏移，但是div元素以前的位置还是保留着，所以后面的span元素是显示在了div元素以前位置的后面。
 偏移前最好不要有元素占据
@@ -801,7 +802,7 @@ p{color:rgb(20%,33%,25%);}
 p{color:#00ffff;}
 配色表：
 ```
-![](pictures/配色表.jpg)
+![配色表](pictures/配色表.jpg)
 
 ```text
 长度单位总结一下，目前比较常用到px（像素）、em、% 百分比，要注意其实这三种单位都是相对单位。
@@ -859,7 +860,7 @@ margin-right:auto;
 注意：元素的“上下 margin” 是可以随意设置的。
 
 在实际工作中我们会遇到需要为“不定宽度的块状元素”设置居中，比如网页上的分页导航，因为分页的数量是不确定的，所以我们不能通过设置宽度来限制它的弹性。(不定宽块状元素：块状元素的宽度width不固定。)
-不定宽度的块状元素有三种方法居中（这三种方法目前使用的都很多）：
+不定宽度的块状元素有三种方法居中（这三种方法目前使用盒子模型的都很多）：
 1. 加入 table 标签
 2. 设置 display: inline 方法：与第一种类似，显示类型设为 行内元素，进行不定宽元素的属性设置
 3. 设置 position:relative 和 left:50%：利用 相对定位 的方式，将元素向左偏移 50% ，即达到居中的目的
